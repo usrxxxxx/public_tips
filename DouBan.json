@@ -1,5 +1,5 @@
 {
-  "refreshTime":2,
+  "refreshTime":0.5,
   "whitelist": {
     "深渊无间":"https://movie.douban.com/subject/36576514/comments",
     "风与潮":"url",
