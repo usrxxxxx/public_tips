@@ -1,9 +1,17 @@
 {
-  "refreshTime":0.5,
-  "whitelist": {
-    "深渊无间":"https://movie.douban.com/subject/36576514/comments",
-    "风与潮":"url",
-    "无忧渡":"url"
-  },
-  "LikeBlockKeywords": ["不好看","秦"]
+    "refreshTime":0.5,
+    "whitelist": {
+      "深渊无间":"https://movie.douban.com/subject/36576514/comments",
+      "风与潮":"url",
+      "无忧渡":"url"
+    },
+    "LikeBlockKeywords": ["不好看","秦"],
+    "defaults": {
+      "tasks": { "like": true, "report": false },
+      "likeMaxCount": 2500,
+      "reportMaxCount": 300,
+      "interval": 5,
+      "mode": "latest",
+      "_modeOptions": { "latest": "仅最新", "hot": "仅热门", "all": "全部（热门+最新）" }
+    }
 }
